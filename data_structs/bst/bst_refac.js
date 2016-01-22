@@ -221,7 +221,7 @@ function BST() {
 }
 
 // Test Cases:
-console.log("Delete node with two children.");
+
 var t1 = new BST();
 t1.addValue(8);
 t1.addValue(2);
@@ -229,6 +229,9 @@ t1.addValue(3);
 t1.addValue(0);
 t1.addValue(10);
 t1.addValue(1);
+t1.preOrder(); //?
+
+console.log("Delete node with two children.");
 t1.deleteValue(2);
 t1.inOrder(); //0, 1, 3, 8, 10
 t1.preOrder(); //8, 0, 1, 3, 10
